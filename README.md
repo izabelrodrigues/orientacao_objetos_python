@@ -5,4 +5,5 @@ Projeto de estudo - Orientação a Objetos - Curso Alura
 * Capítulo 1 - O problema do paradigma procedural
 * Capítulo 2 - Classes e objetos
 * Capítulo 3 - Implementando métodos
+* Capítulo 4 - Encapsulamento (atributos privados)
 
