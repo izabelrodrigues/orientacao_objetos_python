@@ -7,4 +7,4 @@ Projeto de estudo - Orientação a Objetos - Curso Alura
 * Capítulo 3 - Implementando métodos
 * Capítulo 4 - Encapsulamento (atributos privados)
 * Capítulo 5 - Usando property (get and setters)
-
+* Capítulo 6 - Métodos privados e estáticos ou métodos da classe
