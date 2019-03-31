@@ -8,3 +8,6 @@ Projeto de estudo - Orientação a Objetos - Curso Alura
 * Capítulo 4 - Encapsulamento (atributos privados)
 * Capítulo 5 - Usando property (get and setters)
 * Capítulo 6 - Métodos privados e estáticos ou métodos da classe
+
+### Python 3: Avançando na orientação a objetos
+* Herança: class nome_subclass(super_class)
