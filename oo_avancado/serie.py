@@ -4,7 +4,5 @@ class Serie(Programa):
         super().__init__(nome, ano)
         self.temporadas = temporadas
 
-atlanta = Serie('atlanta', 2018, 2)
-atlanta.dar_likes()
-atlanta.dar_likes()
-print(f'Nome: {atlanta.nome} - Likes: {atlanta.likes}')
+    def __str__(self):
+        return f'{self._nome} - {self.ano} - {self.temporadas} temporada(s) - {self._likes} Likes'

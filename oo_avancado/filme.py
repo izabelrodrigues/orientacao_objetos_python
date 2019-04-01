@@ -4,9 +4,5 @@ class Filme(Programa):
         super().__init__(nome, ano)
         self.duracao = duracao
 
-vingadores = Filme('vingadores - guerra infinita', 2018, 160)
-vingadores.dar_likes()
-vingadores.dar_likes()
-vingadores.dar_likes()
-
-print(f'Nome: {vingadores.nome} - Likes: {vingadores.likes}')
+    def __str__(self):
+        return f'{self._nome} - {self.ano} - {self.duracao} min - {self._likes} Likes'

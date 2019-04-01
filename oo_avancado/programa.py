@@ -4,6 +4,9 @@ class Programa:
         self.ano = ano
         self._likes = 0
 
+    def __str__(self):
+        return f'{self._nome} - {self.ano} - {self._likes} Likes'
+
     @property
     def likes(self):
         return self._likes

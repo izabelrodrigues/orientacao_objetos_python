@@ -11,3 +11,4 @@ Projeto de estudo - Orientação a Objetos - Curso Alura
 
 ### Python 3: Avançando na orientação a objetos
 * Herança: class nome_subclass(super_class)
+* Polimorfismo
