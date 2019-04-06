@@ -17,4 +17,6 @@ Projeto de estudo - Orientação a Objetos - Curso Alura
     Inicialização : __init
     Representação: __str__, __repr__
     Container, Sequence: __contains__, __iter__, __len__, __getitem__
-    Numéricos: __add__, __sub__, __mul__, __modd__
+    Numéricos: __add__, __sub__, __mul__, __mod__
+* Herança Múltipla, Mixins
+    
