@@ -1,17 +1,10 @@
-from oo_avancado.filme import Filme
-from oo_avancado.serie import Serie
+class Playlist():
+    def __init__(self, nome, programas):
+        self.nome = nome
+        self._programas = programas
 
+    def __getitem__(self, item):
+        return self._programas[item]
 
-vingadores = Filme('vingadores - guerra infinita', 2018, 160)
-vingadores.dar_likes()
-vingadores.dar_likes()
-vingadores.dar_likes()
-
-atlanta = Serie('atlanta', 2018, 2)
-atlanta.dar_likes()
-atlanta.dar_likes()
-
-playlist = [vingadores, atlanta]
-for programa in playlist:
-    print(programa)
-
+    def __len__(self):
+        return len(self._programas)
